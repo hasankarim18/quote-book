@@ -1,8 +1,8 @@
-import classes from './CommentItem.module.css';
+import classNamees from './CommentItem.module.css';
 
 const CommentItem = (props) => {
   return (
-    <li className={classes.item}>
+    <li className={classNamees.item}>
       <p>{props.text}</p>
     </li>
   );
